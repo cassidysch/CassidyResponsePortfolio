@@ -3,6 +3,74 @@ html {
   width: 100%;
 }
 
-.aboutbutton, .response1button {
-  color: blue;
+body {
+  background-color: #2F4858;
+}
+
+.hometext {
+  font-size: 40px;
+  color: #F6AE2D;
+  text-shadow: 3px 1px 0px #F26419;
+  font-family: "Sarabun";
+  
+}
+
+
+
+.aboutbutton, .response1button, .response2button, .response3button {
+  color: black;
+  font-size: 25px;
+  background-color: #;
+  
+  padding: 20px;
+  margin: 30px;
+  margin-top: 0px;
+  font-family: "Sarabun";
+  background-color: #F6AE2D;
+  transition: 0.2s;
+}
+
+.aboutbutton:hover {
+  background-color: #F26419;
+}
+
+.response1button:hover {
+  background-color: #F26419;
+}
+
+.response2button:hover {
+  background-color: #F26419;
+}
+
+.response3button:hover {
+  background-color: #F26419;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+.rightside {
+  width: 25%;
+  border-radius: 50px;
+}
+
+.leftside {
+  width: 75%;
+}
+
+.title {
+  font-size: 100px;
+  color: #f7c25e;
+  text-shadow: 10px 5px 0px #F26419;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 50px;
+}
+h1, h2, h3, p {
+  font-family: "Rubik Mono One";
 }
