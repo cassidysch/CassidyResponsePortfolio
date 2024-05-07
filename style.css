@@ -10,24 +10,82 @@ body {
 .hometext {
   font-size: 40px;
   color: #F6AE2D;
-  text-shadow: 3px 1px 0px #F26419;
   font-family: "Sarabun";
-  
 }
 
+.pagecontent {
+  display: flex;
+  justify-content: center;
+}
 
+.column1 {
+  width: 40%;
+  padding-left: 20px;
+}
 
-.aboutbutton, .response1button, .response2button, .response3button {
-  color: black;
+.column2 {
+  width: 30%;
+
+}
+
+.column3 {
+  width: 30%;
+  padding-right: 20px;
+}
+
+.about {
+  margin: 20px;
+}
+
+.thisisme {
+  width: 250px;
+}
+
+.brainstorm {
+  width: 300px;
+  border: 5px #F6AE2D solid;
+  transition: 0.2s;
+}
+
+.brainstorm:hover {
+  border: 5px #F26419 solid;
+}
+
+.left {
+  width: 75%;
+  padding: 20px;
+}
+
+.right {
+  width: 25%;
+  padding: 20px;
+}
+
+.aboutbutton,
+.response1button,
+.response2button,
+.response3button {
+  color: #2F4858;
   font-size: 25px;
-  background-color: #;
-  
   padding: 20px;
   margin: 30px;
   margin-top: 0px;
   font-family: "Sarabun";
-  background-color: #F6AE2D;
+  background-color: #f7c25e;
   transition: 0.2s;
+  box-shadow: 7px 7px 0px #F26419;
+}
+
+.backhome, .backhome2 {
+  color: #2F4858;
+  font-family: "Sarabun";
+  font-size: 25px;
+  background-color: #f7c25e;
+  transition: 0.2s;
+  padding: 10px;
+  width: 70px;
+  text-align: center;
+   box-shadow: 7px 7px 0px #F26419;
 }
 
 .aboutbutton:hover {
@@ -43,6 +101,14 @@ body {
 }
 
 .response3button:hover {
+  background-color: #F26419;
+}
+
+.backhome:hover {
+  background-color: #F26419;
+}
+
+.backhome2:hover {
   background-color: #F26419;
 }
 
@@ -62,15 +128,36 @@ body {
 }
 
 .title {
-  font-size: 100px;
+  font-size: 125px;
   color: #f7c25e;
   text-shadow: 10px 5px 0px #F26419;
   margin: 0px;
+  transition: 0.5s;
+}
+
+.aboutmetext, .firsttitle {
+  font-size: 70px;
+  color: #f7c25e;
+  text-shadow: 9px 4px 0px #F26419;
+}
+
+.firsttitle {
+  padding-left: 20px;
+}
+
+.littleaboutmetext {
+  color: #F6AE2D;
+  font-size: 30px;
+  font-family: "Sarabun";
 }
 
 h2 {
   font-size: 50px;
 }
-h1, h2, h3, p {
+
+h1,
+h2,
+h3,
+p {
   font-family: "Rubik Mono One";
 }
