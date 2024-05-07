@@ -4,10 +4,13 @@ let responseOne = document.querySelector(".firstresponsepage");
 let aboutButton = document.querySelector(".aboutbutton");
 let responseOneButton = document.querySelector(".response1button");
 let backHomeButton = document.querySelector(".backhome");
-let backHomeButton2 = document.querySelector(".backhome2")
+let backHomeButton2 = document.querySelector(".backhome2");
+let lyricButton = document.querySelector("#lyricbtn");
+let lyrics = document.querySelector("#lyrics");
 
 about.style.display = "none";
 responseOne.style.display = "none";
+lyrics.style.display = "none";
 
 aboutButton.onclick = function() {
   home.style.display = "none";
@@ -28,3 +31,7 @@ backHomeButton2.onclick = function() {
   responseOne.style.display = "none";
   home.style.display = "flex";
 };
+
+lyricButton.onclick = function() {
+  lyrics.style.display = "block";
+}
