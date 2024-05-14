@@ -26,6 +26,15 @@ body {
   color: #F26419;
 }
 
+#lyricbtn2 {
+  transition: 0.2s;
+}
+
+#lyricbtn2:hover {
+  color: #F26419;
+}
+
+
 .column1 {
   width: 50%;
   padding: 20px;
@@ -84,7 +93,7 @@ body {
   box-shadow: 7px 7px 0px #F26419;
 }
 
-.backhome, .backhome2 {
+.backhome, .backhome2, .backhome3 {
   color: #2F4858;
   font-family: "Sarabun";
   font-size: 25px;
@@ -117,6 +126,10 @@ body {
 }
 
 .backhome2:hover {
+  background-color: #F26419;
+}
+
+.backhome3:hover {
   background-color: #F26419;
 }
 
