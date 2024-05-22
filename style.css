@@ -38,6 +38,13 @@ body {
   color: #F26419;
 }
 
+#lyricsbtn3 {
+  transition: 0.2s;
+}
+
+#lyricsbtn3:hover {
+  color: #F26419;
+}
 
 .column1 {
   width: 50%;
@@ -53,6 +60,17 @@ body {
   width: 20%;
   padding-right: 20px;
 }
+
+.theleftside {
+  width: 60%;
+  padding: 20px;
+}
+
+.therightside {
+  width: 40%;
+  padding: 20px;
+}
+
 
 .about {
   margin: 20px;
@@ -99,7 +117,10 @@ body {
   width: 500px;
 }
 
-.backhome, .backhome2, .backhome3 {
+.backhome,
+.backhome2,
+.backhome3,
+.backhome4 {
   color: #2F4858;
   font-family: "Sarabun";
   font-size: 25px;
@@ -108,7 +129,12 @@ body {
   padding: 10px;
   width: 70px;
   text-align: center;
-   box-shadow: 7px 7px 0px #F26419;
+  box-shadow: 7px 7px 0px #F26419;
+}
+
+.backhome4 {
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .aboutbutton:hover {
@@ -139,6 +165,10 @@ body {
   background-color: #F26419;
 }
 
+.backhome4:hover {
+  background-color: #F26419;
+}
+
 .homepage {
   display: flex;
   justify-content: center;
@@ -166,7 +196,8 @@ body {
   transition: 0.5s;
 }
 
-.aboutmetext, .firsttitle {
+.aboutmetext,
+.firsttitle {
   font-size: 70px;
   color: #f7c25e;
   text-shadow: 9px 4px 0px #F26419;
@@ -180,6 +211,7 @@ body {
   color: #F6AE2D;
   font-size: 30px;
   font-family: "Sarabun";
+  margin-top: 0px;
 }
 
 h2 {
@@ -191,4 +223,20 @@ h2,
 h3,
 p {
   font-family: "Rubik Mono One";
+}
+
+iframe {
+  border: none;
+  border: 5px #F6AE2D solid;
+}
+
+.threevideo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.imageyay {
+  width: 300px;
+  border: 5px #F6AE2D solid;
 }
